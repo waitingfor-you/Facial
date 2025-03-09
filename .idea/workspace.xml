@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530f88-49eb-4843-b308-0ef55eac5dcb" name="更改" comment="模型文件">
-      <change afterPath="$PROJECT_DIR$/otherSolution/Train_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -249,7 +247,7 @@
       <workItem from="1741077802182" duration="1482000" />
       <workItem from="1741146939926" duration="491000" />
       <workItem from="1741483854281" duration="934000" />
-      <workItem from="1741487159427" duration="12705000" />
+      <workItem from="1741487159427" duration="13731000" />
     </task>
     <task id="LOCAL-00001" summary="模型文件">
       <option name="closed" value="true" />
@@ -259,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737117659522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="模型文件">
+      <option name="closed" value="true" />
+      <created>1741518181600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741518181600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +282,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -292,9 +298,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/facial_recognize" />
     </ignored-roots>
-    <MESSAGE value="模型文件" />
     <MESSAGE value="各种文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="各种文件" />
+    <MESSAGE value="模型文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="模型文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
