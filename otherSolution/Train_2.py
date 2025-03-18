@@ -9,6 +9,7 @@ from torch.optim import lr_scheduler
 from torchvision import datasets, models, transforms
 from tensorboardX import SummaryWriter
 from torch.utils.data import DataLoader
+from torch.nn import functional as F
 
 from model.VGGnet.joint import VGGnet
 
@@ -52,6 +53,17 @@ data_transforms_train_list.append(transforms.ToTensor())
 data_transforms_train_list.append(torchvision.transforms.Normalize([0.5], [0.5]))
 data_transforms['train'] = transforms.Compose(data_transforms_train_list)
 
+class FocalLoss(nn.Module):
+    def __init__(self, alpha=1, gamma=2):
+        super(FocalLoss, self).__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+
+    def forward(self, inputs, targets):
+        ce_loss = F.cross_entropy(inputs, targets, reduction='none')
+        pt = torch.exp(-ce_loss)
+        focal_loss = self.alpha * (1 - pt) ** self.gamma * ce_loss
+        return focal_loss.mean()
 
 class ModelCheckpoint:
     def __init__(self, filepath, monitor='val_acc', verbose=True, save_best_only=True, save_weights_only=True):
@@ -186,9 +198,20 @@ if __name__ == '__main__':
 
     dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val']}
 
-    criterion = nn.CrossEntropyLoss()
-    optimizer_ft = optim.SGD(model.parameters(), lr=1e-3, momentum=0.9)
-    exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=100, gamma=0.1)
+    # criterion = nn.CrossEntropyLoss()
+    # optimizer_ft = optim.SGD(model.parameters(), lr=1e-3, momentum=0.9)
+    # exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=100, gamma=0.1)
+    # #策略1
+
+    optimizer_ft = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
+    exp_lr_scheduler = lr_scheduler.OneCycleLR(optimizer_ft, max_lr=5e-3, steps_per_epoch=len(dataloaders), epochs=50)
+    criterion = nn.CrossEntropyLoss(label_smoothing=0.1)
+    # 策略2
+
+    # optimizer_ft = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
+    # exp_lr_scheduler = lr_scheduler.OneCycleLR(optimizer_ft, max_lr=5e-3, steps_per_epoch=len(dataloaders), epochs=50)
+    # criterion = FocalLoss()
+    # # 策略3
 
     pretrained_path = args.pretrained  # 预训练文件路径
     load_pretrained_model(model, pretrained_path)

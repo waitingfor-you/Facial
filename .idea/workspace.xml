@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75530f88-49eb-4843-b308-0ef55eac5dcb" name="更改" comment="模型文件">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otherSolution/Train_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/otherSolution/Train_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,35 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.Fine.executor": "Run",
-    "Python.Make_lableTXT.executor": "Run",
-    "Python.Train_2.executor": "Run",
-    "Python.chiyokoui.executor": "Run",
-    "Python.datasets.executor": "Debug",
-    "Python.joint.executor": "Debug",
-    "Python.ptToonnx.executor": "Debug",
-    "Python.recognize (1).executor": "Run",
-    "Python.recognize.executor": "Debug",
-    "Python.recognizeFace.executor": "Run",
-    "Python.recognize_camera.executor": "Run",
-    "Python.test.executor": "Debug",
-    "Python.train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/Tabel/FacialExpressionRecognition",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.Fine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Make_lableTXT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Train_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chiyokoui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datasets.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.joint.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ptToonnx.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.recognize (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.recognize.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.recognizeFace.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recognize_camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Tabel/FacialExpressionRecognition&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yu\Desktop\facial" />
@@ -247,7 +249,8 @@
       <workItem from="1741077802182" duration="1482000" />
       <workItem from="1741146939926" duration="491000" />
       <workItem from="1741483854281" duration="934000" />
-      <workItem from="1741487159427" duration="13731000" />
+      <workItem from="1741487159427" duration="14990000" />
+      <workItem from="1742286592142" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="模型文件">
       <option name="closed" value="true" />
@@ -265,15 +268,53 @@
       <option name="project" value="LOCAL" />
       <updated>1741518181600</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="模型文件">
+      <option name="closed" value="true" />
+      <created>1741519569743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741519569743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="89f87b7f-565d-43c0-8852-d48f28b323f4" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="89f87b7f-565d-43c0-8852-d48f28b323f4">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
